@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>TP_lofteurs.uml</name>
+			<type>1</type>
+			<location>C:/Users/Nora/Desktop/Centrale/EI3 Info/TP OBJET/TP_lofteurs.uml</location>
+		</link>
+	</linkedResources>
 </projectDescription>
