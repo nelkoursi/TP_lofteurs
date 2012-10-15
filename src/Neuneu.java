@@ -12,7 +12,7 @@ public abstract class Neuneu {
 	/**
 	 * @param energie du Neuneu
 	 */
-	protected int energieNeuneu;
+	protected int energieNeuneu; //ceci est 
 	protected Case position;
 	
 	
