@@ -45,7 +45,25 @@ public class Case {
 	
 	protected int idNourriture;
 	
+	//Constructeur ci-dessous
 	
+	
+	/**
+	 * @param abscisse
+	 * @param ordonnee
+	 * @param contientNeuneu
+	 * @param idNourriture
+	 */
+	public Case(int abscisse, int ordonnee, boolean contientNeuneu,
+			int idNourriture) {
+		super();
+		this.abscisse = abscisse;
+		this.ordonnee = ordonnee;
+		this.contientNeuneu = contientNeuneu;
+		this.idNourriture = idNourriture;
+	}
+
+
 	/**
 	 * @return abscisse
 	 */
@@ -78,11 +96,14 @@ public class Case {
 	}
 
 
-	
-	
-	public static void main(String[] args) {
-		// TODO Stub de la méthode généré automatiquement
-
+	/**
+	 *  @return type de nourriture (int)
+	 */
+	public int lireTypeNourriture(){
+		//on aura une boucle qui lira l'identifiant de la nourriture
+		
+		return idNourriture;
 	}
+	
 
 }
