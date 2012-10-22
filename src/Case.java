@@ -38,6 +38,8 @@ public class Case {
 	 * 0 sinon.
 	 */
 	
+	protected boolean contientNourriture;
+	
 	/**
 	 * 
 	 * @param idNourriture : entier qui identifie le type de nourriture sur la case
