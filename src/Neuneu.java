@@ -34,7 +34,6 @@ public abstract class Neuneu {
 	
 	public Neuneu(int energieNeuneu, Case position, boolean estExclu,
 			int besoinEnergetique, Loft loft) {
-		super();
 		this.energieNeuneu = energieNeuneu;
 		this.position = position;
 		this.estExclu = estExclu;

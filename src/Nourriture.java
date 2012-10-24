@@ -42,7 +42,6 @@ public class Nourriture {
 	 */
 	public Nourriture(int valeurEnergetique, boolean estConsomme,
 			Case position, int idNourriture) {
-		super();
 		this.valeurEnergetique = valeurEnergetique;
 		this.estConsomme = estConsomme;
 		this.position = position;
