@@ -106,9 +106,13 @@ public class Loft {
 	}
 
 	
-	public void exclure(){
+	public void exclure(Neuneu neuneuExclu){ 	//Neuneu en paramètre pour l'enlever de la LinkedList 
 		
-		//Neuneu en paramètre pour l'enlever de la LinkedList ???
+		listeLofteur.remove(neuneuExclu);
+		nbLofteurs = nbLofteurs --;
+		System.out.println ("Il reste donc " + nbLofteurs + " neuneus dans le Loft !");
 		
 	}
+	
+		
 }
