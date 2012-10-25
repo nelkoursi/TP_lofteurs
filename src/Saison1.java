@@ -1,5 +1,17 @@
 package com.objet.lofteurs;
 
+/*
+ * Quelques remarques sur cette classe :
+ *  les Lapins ne sont pas définis
+ *  on peut améliorer en laissant à l'utilisateur le choix de la taille du Loft 
+ *  (pas très dur avec un Scanner en début de saison et un paramètre choisi !)
+ *  On peut ajouter des méthodes au Loft (ce script montre bien qu'il nous manque notamment une méthode pour que
+ *  le Loft se remplisse ;) )
+ *  Revoir les paramètres du Loft : là où on parle de méthode "affichage", là l'affichage du Loft est géré en paramètre
+ *  
+ *  
+ */
+
 public class Saison1 {
 
 	public static int nombreLofteurs = 4;
