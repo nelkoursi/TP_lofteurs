@@ -1,4 +1,4 @@
-package com.objet.lofteurs;
+
 
 /*
  * Quelques remarques sur cette classe :
