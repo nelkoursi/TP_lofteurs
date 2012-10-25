@@ -8,9 +8,10 @@
  *
  */
 
+import java.awt.Graphics;
 import java.util.*;
 
-public class Loft {
+public class Loft implements ObjetDessinable {
 
 	/**
 	 * @param args
@@ -111,6 +112,26 @@ public class Loft {
 		listeLofteur.remove(neuneuExclu);
 		nbLofteurs = nbLofteurs --;
 		System.out.println ("Il reste donc " + nbLofteurs + " neuneus dans le Loft !");
+		
+	}
+	
+	public void remplirAléatoire(){
+		// comment remplir le loft ??? -_-
+	}
+	
+	public void ajouterNeuneu(Neuneu neuneuAjoute){
+		listeLofteur.add(neuneuAjoute);
+		nbLofteurs = nbLofteurs ++;
+		System.out.println ("Il reste donc " + nbLofteurs + " neuneus dans le Loft !");
+	}
+
+
+	/* (non-Javadoc)
+	 * @see ObjetDessinable#dessinerObjet(java.awt.Graphics)
+	 */
+	@Override
+	public void dessinerObjet(Graphics g) {
+		// TODO Stub de la méthode généré automatiquement
 		
 	}
 	

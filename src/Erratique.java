@@ -27,9 +27,16 @@ public abstract class Erratique extends Neuneu {
 	}
 	
 	public Neuneu seReproduire(){
-		return null; //modifier le retour pour un paramètre de type Neuneu une fois la fonction bien définie
-	
-		//ici, entrer les conditions de reproduction d'un erratique
+		
+		Neuneu neuneuANaitre = null;
+		Neuneu neuneuPapa = null;
+		Neuneu neuneuMaman = null;
+		
+		if (neuneuPapa.getPosition().equals(neuneuMaman.getPosition())){
+			loft.ajouterNeuneu(neuneuANaitre);
+		}
+		
+		return neuneuANaitre;
 	
 	}
 

@@ -41,6 +41,29 @@ public abstract class Neuneu {
 		this.loft = loft;
 	}
 	
+	
+	
+	
+	/**
+	 * @return le position
+	 */
+	public Case getPosition() {
+		return position;
+	}
+
+
+
+
+	/**
+	 * @param position le position à définir
+	 */
+	public void setPosition(Case position) {
+		this.position = position;
+	}
+
+
+
+
 	public abstract void seDeplacer();
 	
 	public abstract void manger();
