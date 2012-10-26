@@ -7,7 +7,7 @@
  * @author Nora
  *
  */
-public class Erratique extends Neuneu {
+public abstract class Erratique extends Neuneu {
 
 	/**
 	 * @param energieNeuneu
