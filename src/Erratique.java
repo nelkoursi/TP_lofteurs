@@ -7,7 +7,7 @@
  * @author Nora
  *
  */
-public abstract class Erratique extends Neuneu {
+public class Erratique extends Neuneu {
 
 	/**
 	 * @param energieNeuneu
@@ -34,6 +34,7 @@ public abstract class Erratique extends Neuneu {
 		
 		if (neuneuPapa.getPosition().equals(neuneuMaman.getPosition())){
 			loft.ajouterNeuneu(neuneuANaitre);
+			neuneuANaitre.getPosition().equals(neuneuMaman.getPosition()); // le nouveau né est sur la case des parents :3
 		}
 		
 		return neuneuANaitre;

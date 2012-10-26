@@ -115,7 +115,7 @@ public class Loft implements ObjetDessinable {
 		
 	}
 	
-	public void remplirAléatoire(){
+	public void remplirLoft(){
 		// comment remplir le loft ??? -_-
 	}
 	
