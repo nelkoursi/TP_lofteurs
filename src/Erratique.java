@@ -7,7 +7,7 @@
  * @author Nora
  *
  */
-public abstract class Erratique extends Neuneu {
+public class Erratique extends Neuneu {
 
 	/**
 	 * @param energieNeuneu
@@ -27,7 +27,6 @@ public abstract class Erratique extends Neuneu {
 	}
 	
 	public Neuneu seReproduire(){
-		
 		Neuneu neuneuANaitre = null;
 		Neuneu neuneuPapa = null;
 		Neuneu neuneuMaman = null;
@@ -38,7 +37,17 @@ public abstract class Erratique extends Neuneu {
 		}
 		
 		return neuneuANaitre;
-	
+	}
+
+	@Override
+	public void manger() {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public void afficherNeuneu() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

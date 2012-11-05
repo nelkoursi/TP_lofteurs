@@ -7,7 +7,7 @@
  * @author Nora
  *
  */
-public abstract class Lapin extends Erratique {
+public class Lapin extends Erratique {
 
 	/**
 	 * @param energieNeuneu

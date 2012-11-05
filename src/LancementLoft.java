@@ -1,6 +1,5 @@
 import java.util.LinkedList;
 
-
 /**
  * 25 oct. 2012
  *TP_lofteurs	 
@@ -27,10 +26,8 @@ public class LancementLoft {
 	
 	public static void main(String[] args) {
 		// TODO Stub de la méthode généré automatiquement
-
 		new LancementLoft().primetime();
-		
-	}
+		}
 	
 	public void primetime(){
 		ZoneGraphique zone = new ZoneGraphique("Un documentaire animalier sur les Neuneus");
